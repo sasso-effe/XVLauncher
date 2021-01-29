@@ -420,7 +420,9 @@
                     </Button>
                 </Grid>
                 <!--Please, don't remove the following label. Share with everyone the tool you have used for create your launcher. Thank you!-->
-                <Label x:Name="basedLabel" Style="{StaticResource ResourceKey=HyperlinkLabel}" Margin="16,0,0,453" Content="{x:Static language:Lang.xvlauncher}" HorizontalAlignment="Left" Width="364" VerticalAlignment="Bottom"/>
+                <Label x:Name="basedLabel" Style="{StaticResource ResourceKey=HyperlinkLabel}" Margin="16,0,0,453" HorizontalAlignment="Left" Width="364" VerticalAlignment="Bottom">
+                    <Hyperlink NavigateUri="https://github.com/sasso-effe/XVLauncher" RequestNavigate="Hyperlink_RequestNavigate">Based on XVLauncher: The open-source launcher for your app.</Hyperlink>
+                </Label>
                 <Label Content="{x:Static language:Lang.other_options}" HorizontalAlignment="Left" Margin="16,195,0,0" VerticalAlignment="Top" Foreground="#FFBBBBBB" Width="154" FontSize="14"/>
                 <Label x:Name="game_version_label" Content="{x:Static language:Lang.game_version}" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Foreground="#FFBBBBBB" FontSize="14"/>
                 <Separator Height="1" VerticalAlignment="Top" Margin="0,44,0,0"/>
