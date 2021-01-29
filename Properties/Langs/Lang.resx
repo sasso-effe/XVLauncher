@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleting" xml:space="preserve">
+    <value>Deleting files...</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="download_completed" xml:space="preserve">
+    <value>Download completed.</value>
+  </data>
+  <data name="download_not_possible" xml:space="preserve">
+    <value>It is not possible to install the game. Check your internet connection or retry in a few minutes</value>
+  </data>
+  <data name="download_progress" xml:space="preserve">
+    <value>Download in progress... {0:0.##}%</value>
+  </data>
+  <data name="download_progress_unknown" xml:space="preserve">
+    <value>Download in progress... Downloaded: {0:0.##} {1}
+Note: the download size is approximately {2}.</value>
+  </data>
+  <data name="exe_not_found" xml:space="preserve">
+    <value>The file {0} was not found.</value>
+  </data>
+  <data name="game_version" xml:space="preserve">
+    <value>Game version {0}</value>
+  </data>
+  <data name="installation_error" xml:space="preserve">
+    <value>There was an error decompressing the game. Please, try to uninstall it from setting menu and then download it again.
+Error details: {0}</value>
+  </data>
+  <data name="installation_ip" xml:space="preserve">
+    <value>Installation in progress... {0:0.##}%</value>
+  </data>
+  <data name="last_version_av" xml:space="preserve">
+    <value>This is the last version available.</value>
+  </data>
+  <data name="launcher_version" xml:space="preserve">
+    <value>Launcher version {0}</value>
+  </data>
+  <data name="opensource" xml:space="preserve">
+    <value>Powered by open-source software</value>
+  </data>
+  <data name="other_options" xml:space="preserve">
+    <value>Other options</value>
+  </data>
+  <data name="play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="recover" xml:space="preserve">
+    <value>Recover</value>
+  </data>
+  <data name="recovery" xml:space="preserve">
+    <value>Game recovery</value>
+  </data>
+  <data name="recovery_text" xml:space="preserve">
+    <value>All game files will be deleted and the last version available will be downloaded.
+You will not loose your save data.
+Do you want to continue?</value>
+  </data>
+  <data name="save1" xml:space="preserve">
+    <value>Save 1</value>
+  </data>
+  <data name="save2" xml:space="preserve">
+    <value>Save 2</value>
+  </data>
+  <data name="save3" xml:space="preserve">
+    <value>Save 3</value>
+  </data>
+  <data name="save4" xml:space="preserve">
+    <value>Save 4</value>
+  </data>
+  <data name="save5" xml:space="preserve">
+    <value>Save 5</value>
+  </data>
+  <data name="save6" xml:space="preserve">
+    <value>Save 6</value>
+  </data>
+  <data name="save_picker" xml:space="preserve">
+    <value>Select save</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>&lt; Settings</value>
+  </data>
+  <data name="third_party" xml:space="preserve">
+    <value>Third-party software used in XVLauncher</value>
+  </data>
+  <data name="unable_download" xml:space="preserve">
+    <value>Unable to download the game: {0}</value>
+  </data>
+  <data name="uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="update_not_possible" xml:space="preserve">
+    <value>It is not possible to check for updates now. Check your internet connection or try again in a few minutes. You can still play the game.</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version {0}. </value>
+  </data>
+  <data name="version_available" xml:space="preserve">
+    <value>Version {0} available for the download.</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="xvlauncher" xml:space="preserve">
+    <value>Based on XVLauncher, the open-source launcher for your app</value>
+  </data>
+</root>
