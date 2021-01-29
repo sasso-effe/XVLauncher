@@ -20,10 +20,6 @@ namespace XVLauncher
             client = new MegaApiClient();
         }
 
-        /// <summary>
-        /// Implements superclass abstract method.
-        /// </summary>
-        /// <returns></returns>
         async protected override Task DownloadImplementation()
         {
             await client.LoginAnonymousAsync();

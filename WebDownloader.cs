@@ -23,7 +23,6 @@ namespace XVLauncher
             client = new WebClient();
         }
 
-
         protected async override Task DownloadImplementation()
         {
             var totalsize = GetFileSize(url);

@@ -6,17 +6,30 @@ using XVLauncher.Resources;
 
 namespace XVLauncher
 {
+    /// <summary>
+    /// Subclass of <see cref="Downloader"/> that handle updates from GitLab repository.
+    /// </summary>
     class UpdateDownloader : Downloader
     {
         private readonly List<string> oldPath, newPath;
         private readonly UpdateHandler handler;
 
+        /// <summary>
+        /// Constructor method.
+        /// </summary>
+        /// <param name="window"><see cref="MainWindow"/> instance where are placed GUI elements to be updated to show progress.</param>
+        /// <param name="url"></param>
+        /// <param name="oldPath">List of path that do not exists in the new update, because file have been mooved or deleted.</param>
+        /// <param name="newPath">List of new path</param>
+        /// <param name="handler">An instance of <see cref="UpdateHandler"/></param>
         public UpdateDownloader(MainWindow window, string url, List<string> oldPath, List<string> newPath, UpdateHandler handler) : base(window, url)
         {
             this.oldPath = oldPath;
             this.newPath = newPath;
             this.handler = handler;
         }
+
+
         protected override async Task DownloadImplementation()
         {
 

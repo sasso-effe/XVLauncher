@@ -15,7 +15,7 @@ namespace XVLauncher
         /// <summary>
         /// Constructor method.
         /// </summary>
-        /// <param name="window"><see cref="MainWindow"/> where are placed GUI elements to be updated to show progress.</param>
+        /// <param name="window"><see cref="MainWindow"/> instance where are placed GUI elements to be updated to show progress.</param>
         /// <param name="url"></param>
         public Downloader(MainWindow window, string url)
         {
