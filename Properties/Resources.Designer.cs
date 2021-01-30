@@ -124,7 +124,7 @@ namespace XVLauncher.Properties {
         }
         
         /// <summary>
-        ///   Cerca una stringa localizzata simile a 0.5.0.
+        ///   Cerca una stringa localizzata simile a 1.0.0.
         /// </summary>
         internal static string LauncherVersion {
             get {

@@ -144,7 +144,7 @@ https://github.com/settings/tokens</comment>
     <comment>The directory where the game will be stored. [Deprecated]</comment>
   </data>
   <data name="LauncherVersion" xml:space="preserve">
-    <value>0.5.0</value>
+    <value>1.0.0</value>
   </data>
   <data name="SaveDirectory" xml:space="preserve">
     <value>TestApp</value>
