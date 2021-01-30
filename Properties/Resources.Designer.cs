@@ -61,6 +61,15 @@ namespace XVLauncher.Properties {
         }
         
         /// <summary>
+        ///   Cerca una stringa localizzata simile a .
+        /// </summary>
+        internal static string AccessToken {
+            get {
+                return ResourceManager.GetString("AccessToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una stringa localizzata simile a #00DDDDDD.
         /// </summary>
         internal static string ButtonBG {

@@ -94,7 +94,7 @@ namespace XVLauncher
                 Debug.WriteLine($"Url is: {url}");
                 Client.Headers.Add("Content-Type:application/json; charset=utf-8"); //Content-Type  
                 Client.Headers.Add("Accept:application/json");
-                Client.Headers["Private-Token"] = "fGyUKJw4tj1pN4hJXo12";
+                Client.Headers["Private-Token"] = Properties.Resources.AccessToken;
                 //await Client.DownloadStringTaskAsync(api_request_uri);
                 Client.DownloadStringCompleted += new DownloadStringCompletedEventHandler(DownloadCommitInfoEventHandler);
                 await Client.DownloadStringTaskAsync(url);
@@ -170,7 +170,7 @@ namespace XVLauncher
             };
             Client.Headers.Add("Content-Type:application/json"); //Content-Type  
             Client.Headers.Add("Accept:application/json");
-            Client.Headers["Private-Token"] = "fGyUKJw4tj1pN4hJXo12";
+            Client.Headers["Private-Token"] = Properties.Resources.AccessToken;
         }
 
         private void DownloadCommitsListEventHandler(object sender, DownloadStringCompletedEventArgs e)
@@ -211,7 +211,7 @@ namespace XVLauncher
                 client.BaseAddress = Url;
                 client.Headers.Add("Content-Type:application/json"); //Content-Type  
                 client.Headers.Add("Accept:application/json");
-                client.Headers["Private-Token"] = "fGyUKJw4tj1pN4hJXo12";
+                client.Headers["Private-Token"] = Properties.Resources.AccessToken;
 
                 // Getting releases list
                 dynamic res = JsonConvert.DeserializeObject(await client.DownloadStringTaskAsync(Url));
