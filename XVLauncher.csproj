@@ -148,6 +148,10 @@
     <None Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </None>
+    <None Include="ServerSide\get_id.php" />
+    <None Include="ServerSide\last_ver.php" />
+    <None Include="ServerSide\send_error.php" />
+    <None Include="ServerSide\update_ver.php" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
