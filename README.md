@@ -1,4 +1,6 @@
 # XVLauncher
+<img src="https://github.com/sasso-effe/XVLauncher/blob/main/Resources/splash.png?raw=true" width="400" height="300">
+
 
 XVLauncher is an open-source launcher to handle download, installation and update process of Windows apps in a way as user-friendly as possibile.
 As it has been desigend for RPG Maker projects, it is perfect to distribute games, but it is great for every kind of application.
