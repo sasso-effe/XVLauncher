@@ -26,3 +26,12 @@ It has been developed by <a href="https://github.com/sasso-effe">sasso-effe</a> 
 </tr>
 </tbody>
 </table>
+
+# Getting started (Work in progress)
+To start costumizing XVLauncher for your app you just have to click on "Use this template" to create a new repository based on this one: your new repository will have all the files and directory contained in this one.
+
+You can then clone your repository on Visual Studio (or any other solution you want to use to work in C# on a WPF application).
+
+Having access to all the code, you can customize everything and create every feature you need, but we advise you to start choosing where do you want to host your application's files and how to download them. XVLauncher provides the Downloader abstract class which come with 3 implementations: MegaDownloader to download archives from mega.nz, WebDownloader to download files from direct urls, and UpdateDownloader to manage updates from GitLab repositories. You can use one of them or implement yours.
+
+We will see how to host a directory on GitLab:
